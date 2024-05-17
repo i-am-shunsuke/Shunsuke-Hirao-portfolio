@@ -6,7 +6,7 @@ let work=document.querySelector("#work");
 
 let options={
     rootMargin:"10px",
-    threshold:0.2,
+    threshold:0,
 };
 let setItemActive=(entries)=>{
     console.log(entries);
