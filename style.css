@@ -102,7 +102,7 @@ header .headlists .sns a >img:hover{
 /* #introduction */
 
 #introduction{
-    padding-top: 200px;
+    padding-top: 125px;
     opacity: 0;
 }
 #introduction.active{
@@ -147,7 +147,7 @@ header .headlists .sns a >img:hover{
 /* #education */
 
 #education{
-    padding-top: 200px;
+    padding-top: 125px;
     opacity: 0;
 }
 #education.active{
@@ -184,7 +184,7 @@ header .headlists .sns a >img:hover{
 
 /* skill */
 #skill{
-    padding-top: 200px;
+    padding-top: 125px;
     opacity: 0;
 }
 #skill.active{
@@ -301,7 +301,7 @@ header .headlists .sns a >img:hover{
 
 /* experience */
 #experience{
-    padding-top: 200px;
+    padding-top: 125px;
     opacity: 0;
 }
 #experience.active{
@@ -364,7 +364,7 @@ header .headlists .sns a >img:hover{
 
 /* #work */
 #work{
-    padding-top: 200px;
+    padding-top: 125px;
     opacity: 0;
 }
 #work.active{
@@ -408,7 +408,7 @@ header .headlists .sns a >img:hover{
 }
 
 #project{
-    padding-top: 200px;
+    padding-top: 125px;
     /* opacity: 0; */
 }
 
@@ -445,10 +445,11 @@ footer small{
         height: 30px;
     }
 
-    /* #introduction */
-    #introduction .subtitle{
-        margin: 15px 0;
+    .subtitle{
+        padding-top: 40px;
     }
+    /* #introduction */
+    
     #introduction .profile{
         flex-direction: column;
         margin: 15px auto 0 auto;
