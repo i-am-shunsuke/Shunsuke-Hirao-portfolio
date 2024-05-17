@@ -212,7 +212,7 @@ header .headlists .sns a >img:hover{
 }
 #skill .communication .steps h4{
     text-align: center;
-    margin: 50px 0;
+    margin: 100px 0;
     font-size: 1.5rem;
 }
 #skill .communication .steps .step{
@@ -496,7 +496,9 @@ footer small{
     #skill .answer{
         text-underline-offset:6px;
     }
-    
+    #skill .communication .steps h4{
+        margin: 70px 0;
+    }
     
     #skill .communication .steps .step{
         flex-direction: column;
