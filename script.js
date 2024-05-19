@@ -3,6 +3,7 @@ let education=document.querySelector("#education");
 let skill=document.querySelector("#skill");
 let experience=document.querySelector("#experience");
 let work=document.querySelector("#work");
+let project=document.querySelector("#project");
 
 let options={
     rootMargin:"10px",
@@ -22,3 +23,4 @@ observer.observe(education);
 observer.observe(skill);
 observer.observe(experience);
 observer.observe(work);
+observer.observe(project);
