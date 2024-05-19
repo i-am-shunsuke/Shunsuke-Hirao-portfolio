@@ -60,7 +60,7 @@ header .headlists nav ul{
 }
 header .headlists nav li{
     list-style: none;
-    /* margin: 5px; */
+    margin: 5px;
 }
 header .headlists nav a{
     transition-duration: 0.2s;
@@ -372,7 +372,7 @@ header .headlists .sns a >img:hover{
     transition: all 2s;
 }
 #work .subtitle{
-    margin: 25px 0 50px 0;
+    /* margin: 25px 0 50px 0; */
 }
 #work .activity1{
     margin: 0 auto 50px auto;
@@ -409,7 +409,38 @@ header .headlists .sns a >img:hover{
 
 #project{
     padding-top: 125px;
-    /* opacity: 0; */
+    opacity: 0;
+}
+#project.active{
+    opacity: 1;
+    transition: all 2s;
+}
+
+
+#project .project1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#project .project1 a{
+    margin-left: 20px;
+}
+#project .project2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#project .project2 a{
+    margin-left: 20px;
+}
+#project .project3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#project .project3 a{
+    margin-left: 20px;
 }
 
 /* footer */
@@ -446,7 +477,8 @@ footer small{
     }
 
     .subtitle{
-        padding: 40px 0;
+        /* padding: 40px 0; */
+        margin-top: 85px;
     }
     /* #introduction */
     
@@ -585,6 +617,9 @@ footer small{
     }
 
     /* work */
+    #work .subtitle{
+        margin-top: 85px;
+    }
     #work .activity1 .pic{
         display: none;
     }
@@ -602,4 +637,34 @@ footer small{
     #work .activity1 .pic-smart img:hover{
         opacity: 0.5;
     }
+
+    /* #project */
+    #project h3{
+        font-size: 0.8rem;
+    }
+    #project a{
+        font-size: 0.8rem;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    #project .project1{
+        width: 98%;
+        justify-content: space-between;
+        margin: 20px auto
+    }
+    #project .project2{
+        width: 98%;
+        justify-content: space-between;
+        margin: 20px auto
+    }
+    #project .project2 a{
+        margin-left: 0;
+    }
+    #project .project3{
+        width: 98%;
+        justify-content: space-between;
+        margin: 20px auto
+    }
+
+    
 }
