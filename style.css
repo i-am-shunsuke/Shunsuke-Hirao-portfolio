@@ -318,6 +318,15 @@ header .headlists .sns a >img:hover{
 #experience .works p{
     font-size: 1.2rem;
 }
+#experience .work0{
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: #24292e 1px solid;
+    padding-bottom: 10px;
+}
+#experience .work0>article{
+    margin-left: 20.5%
+}
 #experience .work1{
     display: flex;
     margin-bottom: 15px;
